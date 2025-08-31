@@ -1,0 +1,126 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+/* Global app styles (mobile-first) */
+:root{
+  --accent:#2b2b2b;
+  --muted:#666;
+  --bg:#fafafa;
+  --card:#ffffff;
+  --primary:#d97706; /* orange-ish accent */
+}
+
+*{box-sizing:border-box}
+html,body,#root{
+  height:100%;
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:var(--accent);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* main wrapper to give spacing from navbar */
+.main-wrapper{
+  padding: 16px;
+  min-height: calc(100vh - 160px);
+}
+
+/* simple container */
+.container{
+  width:100%;
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 16px;
+}
+
+/* Responsive utilities */
+.row { display:flex; flex-wrap:wrap; gap:16px; }
+.col { flex:1 1 100%; }
+@media (min-width:720px){
+  .col-2 { flex:1 1 48%; }
+  .col-3 { flex:1 1 30%; }
+  .col-4 { flex:1 1 22%; }
+}
+
+/* Buttons */
+.btn {
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:8px;
+  border:none;
+  background:var(--primary);
+  color:white;
+  font-weight:600;
+  cursor:pointer;
+}
+.btn.secondary {
+  background:#efefef;
+  color:var(--accent);
+  border:1px solid #ddd;
+}
+
+/* Inputs */
+.input, textarea {
+  width:100%;
+  padding:10px 12px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  background:white;
+  font-size:14px;
+  outline:none;
+}
+.input:focus, textarea:focus { box-shadow:0 0 0 3px rgba(215,119,6,0.08); border-color: #e0892a; }
+
+/* Small helpers */
+.lead { color:var(--muted); font-size:14px; margin-top:6px; }
+.center { text-align:center; }
+.card {
+  background:var(--card);
+  border-radius:12px;
+  padding:16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}

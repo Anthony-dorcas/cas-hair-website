@@ -1,0 +1,3 @@
+.about-grid{ display:flex; gap:12px; flex-direction:column; margin-top:12px; }
+@media(min-width:720px){ .about-grid{ flex-direction:row; } }
+.about-item{ flex:1; padding:8px; border-radius:8px; background:#fff; border:1px solid #fafafa; }

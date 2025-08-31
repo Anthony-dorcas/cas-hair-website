@@ -1,0 +1,7 @@
+.service-card{
+  padding:16px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.service-card h4{ margin:0; }

@@ -1,0 +1,5 @@
+.shop-page{ padding:10px; }
+.products-grid{ display:grid; gap:12px; grid-template-columns:repeat(1,1fr); }
+@media(min-width:720px){
+  .products-grid{ grid-template-columns:repeat(3,1fr); }
+}

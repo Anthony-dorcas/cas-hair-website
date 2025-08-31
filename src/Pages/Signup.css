@@ -1,0 +1,6 @@
+.signup-page{ max-width:540px; margin:16px auto; padding:16px; }
+.signup-form{ display:flex; flex-direction:column; gap:8px; margin-top:8px; }
+.toggle-password-btn{ align-self:flex-start; margin-top:6px; }
+@media (max-width:420px){
+  .signup-page{ padding:12px; margin:12px 8px; }
+}
