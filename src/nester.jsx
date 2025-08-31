@@ -1,24 +1,27 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Shop from "./pages/Shop";
-import Contact from "./pages/Contact";
-import Booking from "./pages/Booking";
-import Profile from "./pages/Profile";
-import Signup from "./pages/Signup";
-import Login from "./pages/Login";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./App.css";
+
+// Components
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+
+// Pages
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Services from "./pages/Services.jsx";
+import Shop from "./pages/Shop.jsx";
+import Contact from "./pages/Contact.jsx";
+import Booking from "./pages/Booking.jsx";
+import Profile from "./pages/Profile.jsx";
+import Signup from "./pages/Signup.jsx";
+import Login from "./pages/Login.jsx";
 
 const Nester = () => {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <main className="main-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
