@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.css";
+import "./Foot.css";
 
-const Footer = () => {
+const Foot = () => {
   return (
     <>
    
@@ -42,4 +42,4 @@ const Footer = () => {
 
 
 
-export default Footer;
+export default Foot;

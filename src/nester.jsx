@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 // Components
 import Nav from "./Components/Nav.jsx";
-import Footer from "./components/Footer.jsx";
+import Foot from "./Components/Foot.jsx";
 
 // Pages
 import Home from "./pages/Home.jsx";
@@ -35,7 +35,7 @@ const Nester = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
       </main>
-      <Footer />
+      <Foot />
       <ToastContainer position="top-right" autoClose={3000} />
     </Router>
   );
