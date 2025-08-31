@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./Profile.css";
+import "./Profilee.css";
 
-const Profile = () => {
+const Profilee = () => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -26,4 +26,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Profilee;

@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import "./Shop.css";
+import "./Shopp.css";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -10,7 +10,7 @@ const PRODUCTS = [
   { id: 103, name: "Body Wave", image: "https://addisoutfits.com/cdn/shop/files/3_ec8b09c2-6c4d-4f79-ab5a-d818112b5580.jpg?v=1717871187", price: 110 },
 ];
 
-const Shop = () => {
+const Shopp = () => {
   const navigate = useNavigate();
 
   const handleBuy = (product) => {
@@ -34,4 +34,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Shopp;

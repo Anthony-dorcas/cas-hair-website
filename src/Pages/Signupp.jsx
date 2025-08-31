@@ -2,9 +2,9 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
-import './signup.css';
+import './signupp.css';
 
-const Signup = () => {
+const Signupp = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
@@ -170,4 +170,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Signupp;

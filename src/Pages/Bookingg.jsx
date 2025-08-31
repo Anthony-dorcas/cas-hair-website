@@ -1,7 +1,7 @@
 import React from "react";
-import "./Booking.css";
+import "./Bookingg.css";
 
-const Booking = () => {
+const Bookingg = () => {
   return (
     <div className="container booking-page card">
       <h2>Booking</h2>
@@ -16,4 +16,4 @@ const Booking = () => {
   );
 };
 
-export default Booking;
+export default Bookingg;
