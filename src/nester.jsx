@@ -10,7 +10,7 @@ import Foot from "./Components/Foot.jsx";
 // Pages
 import Home from "./Pages/Hom.jsx";
 import About from "./Pages/Aboute.jsx";
-import Services from "./Pages/Servicess.jsx";
+import Services from "./Pages/Services.jsx";
 import Shop from "./Pages/Shopp.jsx";
 import Contact from "./Pages/Contactt.jsx";
 import Booking from "./Pages/Bookingg.jsx";

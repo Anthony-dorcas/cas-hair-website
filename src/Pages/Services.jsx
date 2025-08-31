@@ -1,8 +1,8 @@
 import React from "react";
 import ServiceCard from "../components/ServiceCard";
-import "./Servicess.css";
+import "./Services.css";
 
-const Servicess = () => {
+const Services = () => {
   return (
     <div className="container services-page">
       <h2>Our Services</h2>
@@ -15,4 +15,4 @@ const Servicess = () => {
   );
 };
 
-export default Servicess;
+export default Services;
