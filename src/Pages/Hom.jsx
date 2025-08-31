@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProductCard from "../components/ProductCard";
-import "./Home.css";
+import "./Hom.css";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -12,7 +12,7 @@ const DEMO_PRODUCTS = [
   { id: 4, name: "Lace Closure", image: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/8341604/1.jpg?7313", price: 60 },
 ];
 
-const Home = () => {
+const Hom = () => {
   const navigate = useNavigate();
   const [selected, setSelected] = useState(null);
   const [showModal, setShowModal] = useState(false);
@@ -111,4 +111,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hom;
