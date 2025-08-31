@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import './loginn.css';
+import './login.css';
 
 const LoginPage = () => {
   const navigate = useNavigate();

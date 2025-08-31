@@ -16,7 +16,7 @@ import Contact from "./Pages/Contactt.jsx";
 import Booking from "./Pages/Bookingg.jsx";
 import Profile from "./Pages/Profilee.jsx";
 import Signup from "./Pages/Signupp.jsx";
-import Login from "./Pages/Loginn.jsx";
+import Login from "./Pages/Login.jsx";
 
 const Nester = () => {
   return (
