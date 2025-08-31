@@ -1,7 +1,7 @@
 import React from "react";
-import "./ProductCard.css";
+import "./ProductCardd.css";
 
-const ProductCard = ({ product, onBuy }) => {
+const ProductCardd = ({ product, onBuy }) => {
   const { name, image, price } = product;
   return (
     <div className="product-card card">
@@ -13,4 +13,4 @@ const ProductCard = ({ product, onBuy }) => {
   );
 };
 
-export default ProductCard;
+export default ProductCardd;

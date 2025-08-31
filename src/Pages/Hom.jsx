@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../Components/ProductCardd";
 import "./Hom.css";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
