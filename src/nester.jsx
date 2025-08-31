@@ -9,8 +9,8 @@ import Foot from "./Components/Foot.jsx";
 
 // Pages
 import Home from "./Pages/Hom.jsx";
-import About from "./pages/About.jsx";
-import Services from "./pages/Services.jsx";
+import About from "./Pages/Aboute.jsx";
+import Services from "./Pages/Servicess.jsx";
 import Shop from "./pages/Shop.jsx";
 import Contact from "./pages/Contact.jsx";
 import Booking from "./pages/Booking.jsx";
