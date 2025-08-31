@@ -4,7 +4,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 // Components
-import Navbar from "./components/Navbar.jsx";
+import Nav from "./Components/Nav.jsx";
 import Footer from "./components/Footer.jsx";
 
 // Pages
@@ -21,7 +21,7 @@ import Login from "./pages/Login.jsx";
 const Nester = () => {
   return (
     <Router>
-      <Navbar />
+      <Nav />
       <main className="main-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />

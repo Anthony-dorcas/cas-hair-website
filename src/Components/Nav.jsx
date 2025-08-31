@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "./Navbar.css";
+import "./Nav.css";
 
-const Navbar = () => {
+const Nav = () => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
 
@@ -58,4 +58,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;
