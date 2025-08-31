@@ -18,7 +18,7 @@ import "./App.css";
 const Nester = () => {
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <main className="main-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
